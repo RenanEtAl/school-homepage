@@ -53,7 +53,7 @@
 }
 
 html {
-    ont-family: 'Inria Serif', serif;
+    font-family: 'Inria Serif', serif;
     font-size: var(--global-fontsize);
 }
 
