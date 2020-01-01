@@ -1,0 +1,176 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+
+  }
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+/*fonts*/
+
+/* variables */
+
+:root{
+    --global-fontsize: 10px
+    --global-lineheight: 20px
+}
+
+html {
+    ont-family: 'Inria Serif', serif;
+    font-size: var(--global-fontsize);
+}
+
+  p, ul {
+    font-family: 'Inria Serif', serif;
+    font-size: var(--global-fontsize);
+   }
+ 
+  /* headings */
+h1 {
+    text-align: center;
+}
+
+h1,h2 {
+
+    font-family: 'Inria Serif', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+
+body {
+    line-height: inherit;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+p {
+    text-indent: 20px;
+    line-height: var(--global-lineheight);
+}
+li {
+    word-spacing: 3px;
+}
+/* links */
+
+
+
+a {
+    padding: 2px 1px 0;
+    outline: none;
+
+}
+
+
+a:link {
+    color: burlywood;
+    
+}
+
+a:visited {
+    color: burlywood;
+}
+
+a:focus {
+text-decoration: none;
+}
+
+a:hover {   
+    background: #CDFEAA;
+    text-decoration: none;
+}
+
+a:active {
+    background: #265301;
+    color: #CDFEAA;
+}
+
+a[href*="http"] {
+    background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+  }
+
+/* lists */
+
+ul, ol {
+    margin: 2.0rem 0;
+}
+ul {
+    list-style-type: square;
+  }
+ol {
+    list-style-type: lower-alpha;
+}
+
+/*nav bar*/
+
+nav ul {
+    padding-left: 0;
+    margin-top: 1.0rem;
+}
+
+/* using whitespace*/
+nav li {
+    list-style: none;
+    margin-bottom: 2.0rem;
+}
+
+nav li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #a66;
+
+}
+
+nav li a:focus, nav li a:hover {
+    color: white;
+    background:green;
+  }
+  
+  nav li a:active {
+    color: white;
+    background:green;
+  }
